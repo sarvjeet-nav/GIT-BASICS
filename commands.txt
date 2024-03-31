@@ -1,0 +1,14 @@
+1. Copying code from the cloud to the local system:
+  step I: copy the URL from GitHub website,
+  step II: open git bash on local computer,
+  step III: get into the desktop directory =>  cd Desktop
+  step IV: copy the URL with keywords => git clone http://______.git
+
+2. Create a file
+   step I: move to desired/target folder using commands => cd folder_name
+   step II:  create a new file => touch file_name.ext
+   
+3. Post the file to the cloud
+  step I: use command => git add .
+  step II: provide the comment => git commit -m "whatever u want to convey"
+  step III: push the code => git push
